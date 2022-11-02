@@ -18,4 +18,5 @@ def predict():
     return render_template("index.html", prediction_text = "The flower species is {}".format(prediction))
 
 if __name__ == "__main__":
-    flask_app.run(debug=True)
+    port = 5000
+    flask_app.run(host='0.0.0.0',port=port,debug=True)
