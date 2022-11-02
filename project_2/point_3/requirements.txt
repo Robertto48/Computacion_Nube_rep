@@ -1,9 +1,3 @@
 flask
-gluoncv
-matplotlib
-mxnet
-requests
-Pillow
 pandas
 sklearn
-tensorflow
